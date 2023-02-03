@@ -1,0 +1,288 @@
+@font-face {
+    font-family: Gilroy-sb;
+    src: url("../fonts/font/Gilroy-Semibold.eot") /* EOT file for IE */
+}
+
+@font-face {
+    font-family: Gilroy-sb;
+    src: url("../fonts/font/Gilroy-Semibold.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+    font-family: Gilroy-m;
+    src: url("../fonts/font/Gilroy-Medium.eot") /* EOT file for IE */
+}
+
+@font-face {
+    font-family: Gilroy-m;
+    src: url("../fonts/font/Gilroy-Medium.ttf") /* TTF file for CSS3 browsers */
+}
+
+
+@font-face {
+    font-family: Gilroy-eb;
+    src: url("../fonts/font/Gilroy-Extrabold.eot") /* EOT file for IE */
+}
+
+@font-face {
+    font-family: Gilroy-eb;
+    src: url("../fonts/font/Gilroy-Extrabold.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+    font-family: Gilroy-r;
+    src: url("../fonts/font/Gilroy-Regular.eot") /* EOT file for IE */
+}
+
+@font-face {
+    font-family: Gilroy-r;
+    src: url("../fonts/font/Gilroy-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
+
+
+body{
+  background-color: #F9F9F9;
+}
+
+
+
+%big-eb {
+  font-family: "Gilroy-eb";
+  color: black;
+}
+
+
+%big-sb {
+  font-family: "Gilroy-sb";
+  color: black;
+}
+
+
+%big-m {
+  font-family: "Gilroy-m";
+  color: black;
+}
+
+
+%big-r {
+  font-family: "Gilroy-r";
+}
+
+
+  nav{
+    font-family: "Gilroy-m";
+  }
+
+  li .btn{
+    background-color: #75BF7A;
+    color: white;
+  }
+
+  li .btn:hover{
+    transition: 0.5s;
+    background-color: #75BF7A;
+    outline: 3px solid rgb(97, 97, 97);
+    color: white;
+  }
+
+  .navbar-brand{
+    width:180px;
+  }
+
+  
+
+  .fs-4{
+    font-family: "Gilroy-m";
+    color: #9E9DA2;
+  }
+
+  .download {
+    background-color: black;
+    
+  }
+
+ 
+
+ .download-img{
+    width:30px;
+  }
+
+  .display-3{
+
+    font-family: "Gilroy-eb";
+    text-transform: uppercase;
+    color: black;
+  }
+
+  .download:hover{
+    background-color: #75BF7A;
+    transition: 0.5s;
+    text-decoration: dashed;
+  }
+
+  .download-text{
+    color: white;
+    font-family: "Gilroy-eb";
+    text-transform: uppercase;
+  }
+
+  
+
+  .subscribe-block{
+
+    
+    & > div{
+        background-color: #75BF7A;
+    }
+
+    & p{
+        font-family: "Gilroy-sb";
+        color: white;
+    }
+
+    & input::placeholder{
+       font-size: 20px;
+        font-family: "Gilroy-sb";
+        color: #DADADA;
+    }
+
+    & input[type=text]{
+        color: black;
+        font-size: 20px;
+        padding: 20px 35px;
+        font-family: "Gilroy-sb";
+    }
+
+    & button{
+        background-color: black;
+        color: white;
+      
+        font-family: "Gilroy-eb";
+        text-transform: uppercase;
+        
+
+        &:hover{
+            background-color: black;
+            color: white;
+            text-decoration: underline;
+        }
+    }
+    
+
+  }
+
+
+
+
+
+
+.promo-part{
+  & h1{
+    font-family: "Gilroy-eb";
+    text-transform: uppercase;
+    color: black;
+
+    & span{
+      color: #75BF7A;
+    }
+  }
+
+  & p{
+    font-family: "Gilroy-m";
+    color: #9E9DA2;
+  }
+
+
+  & .promo-block{
+    
+    & .fs-4{
+      font-family: "Gilroy-eb";
+      text-transform: uppercase;
+      color: black;
+    }
+
+    & .fs-6{
+      font-family: "Gilroy-m";
+      color: #9E9DA2;
+    }
+    
+  }
+}
+
+
+.tere-benefits{
+
+  & h1{
+    font-family: "Gilroy-eb";
+    text-transform: uppercase;
+    color: black;
+
+    & span{
+      color: #75BF7A;
+    }
+  }
+
+  & .row{
+    background-color: white;
+  }
+
+  & .display-1{
+    @extend %big-m;
+    color: #75BF7A;
+  }
+
+  & .fs-3{
+    @extend %big-sb;
+    line-height: normal;
+  }
+
+
+  & .fs-5{
+    @extend %big-m;
+    color: #9E9DA2;
+  }
+
+  
+}
+
+
+.footer{
+
+  box-shadow: 0px 1px 7px 1px rgba(0, 0, 0, 0.25);
+
+
+  background-color: white;
+  & .fs-4{
+    color: black;
+    @extend %big-m;
+  }
+
+  & .fs-6{
+    color: #8B8BA5;
+    @extend %big-r;
+  }
+
+
+  & .btn{
+    
+    background-color: black;
+    color: white;
+    @extend %big-eb;
+
+
+
+
+    &:hover{
+      background-color: #75BF7A;
+      transition: 0.5s;
+     
+    }
+
+
+    & img{
+      height: 30px;
+    }
+  }
+
+}

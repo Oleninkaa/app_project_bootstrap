@@ -1,0 +1,225 @@
+@font-face {
+  font-family: Gilroy-sb;
+  src: url("../fonts/font/Gilroy-Semibold.eot");
+}
+@font-face {
+  font-family: Gilroy-sb;
+  src: url("../fonts/font/Gilroy-Semibold.ttf");
+}
+@font-face {
+  font-family: Gilroy-m;
+  src: url("../fonts/font/Gilroy-Medium.eot");
+}
+@font-face {
+  font-family: Gilroy-m;
+  src: url("../fonts/font/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: Gilroy-eb;
+  src: url("../fonts/font/Gilroy-Extrabold.eot");
+}
+@font-face {
+  font-family: Gilroy-eb;
+  src: url("../fonts/font/Gilroy-Extrabold.ttf");
+}
+@font-face {
+  font-family: Gilroy-r;
+  src: url("../fonts/font/Gilroy-Regular.eot");
+}
+@font-face {
+  font-family: Gilroy-r;
+  src: url("../fonts/font/Gilroy-Regular.ttf");
+}
+body {
+  background-color: #F9F9F9;
+}
+
+.footer .btn {
+  font-family: "Gilroy-eb";
+  color: black;
+}
+
+.tere-benefits .fs-3 {
+  font-family: "Gilroy-sb";
+  color: black;
+}
+
+.footer .fs-4, .tere-benefits .fs-5, .tere-benefits .display-1 {
+  font-family: "Gilroy-m";
+  color: black;
+}
+
+.footer .fs-6 {
+  font-family: "Gilroy-r";
+}
+
+nav {
+  font-family: "Gilroy-m";
+}
+
+li .btn {
+  background-color: #75BF7A;
+  color: white;
+}
+
+li .btn:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #75BF7A;
+  outline: 3px solid rgb(97, 97, 97);
+  color: white;
+}
+
+.navbar-brand {
+  width: 180px;
+}
+
+.fs-4 {
+  font-family: "Gilroy-m";
+  color: #9E9DA2;
+}
+
+.download {
+  background-color: black;
+}
+
+.download-img {
+  width: 30px;
+}
+
+.display-3 {
+  font-family: "Gilroy-eb";
+  text-transform: uppercase;
+  color: black;
+}
+
+.download:hover {
+  background-color: #75BF7A;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+}
+
+.download-text {
+  color: white;
+  font-family: "Gilroy-eb";
+  text-transform: uppercase;
+}
+
+.subscribe-block > div {
+  background-color: #75BF7A;
+}
+.subscribe-block p {
+  font-family: "Gilroy-sb";
+  color: white;
+}
+.subscribe-block input::-webkit-input-placeholder {
+  font-size: 20px;
+  font-family: "Gilroy-sb";
+  color: #DADADA;
+}
+.subscribe-block input::-moz-placeholder {
+  font-size: 20px;
+  font-family: "Gilroy-sb";
+  color: #DADADA;
+}
+.subscribe-block input:-ms-input-placeholder {
+  font-size: 20px;
+  font-family: "Gilroy-sb";
+  color: #DADADA;
+}
+.subscribe-block input::-ms-input-placeholder {
+  font-size: 20px;
+  font-family: "Gilroy-sb";
+  color: #DADADA;
+}
+.subscribe-block input::placeholder {
+  font-size: 20px;
+  font-family: "Gilroy-sb";
+  color: #DADADA;
+}
+.subscribe-block input[type=text] {
+  color: black;
+  font-size: 20px;
+  padding: 20px 35px;
+  font-family: "Gilroy-sb";
+}
+.subscribe-block button {
+  background-color: black;
+  color: white;
+  font-family: "Gilroy-eb";
+  text-transform: uppercase;
+}
+.subscribe-block button:hover {
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+}
+
+.promo-part h1 {
+  font-family: "Gilroy-eb";
+  text-transform: uppercase;
+  color: black;
+}
+.promo-part h1 span {
+  color: #75BF7A;
+}
+.promo-part p {
+  font-family: "Gilroy-m";
+  color: #9E9DA2;
+}
+.promo-part .promo-block .fs-4 {
+  font-family: "Gilroy-eb";
+  text-transform: uppercase;
+  color: black;
+}
+.promo-part .promo-block .fs-6 {
+  font-family: "Gilroy-m";
+  color: #9E9DA2;
+}
+
+.tere-benefits h1 {
+  font-family: "Gilroy-eb";
+  text-transform: uppercase;
+  color: black;
+}
+.tere-benefits h1 span {
+  color: #75BF7A;
+}
+.tere-benefits .row {
+  background-color: white;
+}
+.tere-benefits .display-1 {
+  color: #75BF7A;
+}
+.tere-benefits .fs-3 {
+  line-height: normal;
+}
+.tere-benefits .fs-5 {
+  color: #9E9DA2;
+}
+
+.footer {
+  -webkit-box-shadow: 0px 1px 7px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 1px 7px 1px rgba(0, 0, 0, 0.25);
+  background-color: white;
+}
+.footer .fs-4 {
+  color: black;
+}
+.footer .fs-6 {
+  color: #8B8BA5;
+}
+.footer .btn {
+  background-color: black;
+  color: white;
+}
+.footer .btn:hover {
+  background-color: #75BF7A;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.footer .btn img {
+  height: 30px;
+}
